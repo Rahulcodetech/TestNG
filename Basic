@@ -1,0 +1,48 @@
+TestNG 
+	What is testNG
+	1. Testing new generation frame work, Used for unit level test case
+	2. Pupose of testNG is to desing test cases
+	3. TestNG is open source 
+	4. JavaUnit testing frame work 
+	5. Good test report and lot of annotation 
+	6. It has features and priorities 
+	7. Dependencies , group and data provider feature , set of data can be exceuted n number times
+	8. TestNG is also called Test drivern developement 
+	9. 
+	
+
+	Pre Condition 
+	@BeforeSuite
+	@BeforeTest
+	@BeforeClass
+	@BeforeMethod
+	
+	Test Case 
+	@Test
+	
+	Post Conditions 
+	
+	@AfterMethod
+	@AfterCalss
+	@AfterTest
+	@AfterSuite
+
+	Set-1 (One test case)
+	@BeforeMethod
+	@Test
+	@AfterMethod
+	
+ How Many annotation is avaible in the testNG ?
+	
+	@Test(Priority=1)
+	@Test(Priority=1,groups="Test")
+	@Test(DependsOnMethod="LoginTest")
+	@Test(InvocationCountTest=10)
+	@Test(timeOut=3000, exceptedException=NumberFormateException.class)
+	@Test()
+	Assert.assertEquals(title,"Google", "Title is not matched");
+	
+	testNG.xml
+	How to use Parameter passing Using testNG
+	
+	
